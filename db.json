@@ -1,42 +1,33 @@
 {
   "posts": [
     {
-      "title": "Fetching Data",
-      "author": "pfdzm",
-      "id": 1702486083262
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
     },
     {
-      "title": "react-lifecycles",
+      "id": 2,
+      "title": "second-post",
+      "author": "pfdzm"
+    },
+    {
+      "title": "Fetching Data",
       "author": "pfdzm",
-      "id": 1702486205739
+      "id": 1702472987217
     },
     {
       "title": "Promises",
       "author": "pfdzm",
-      "id": 1702486336364
-    },
-    {
-      "title": "Typescript",
-      "author": "pfdzm",
-      "id": 1702486410703
-    },
-    {
-      "id": 1702486590370,
-      "title": "Typescript",
-      "author": "pfdzm"
-    },
-    {
-      "title": "react-state-lifecycles",
-      "author": "pfdzm",
-      "id": 1702486618076
-    },
-    {
-      "title": "Fetching Data",
-      "author": "pfdzm",
-      "id": 1702486750948
+      "id": 1702473019349
     }
   ],
-  "comments": [],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
