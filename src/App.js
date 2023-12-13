@@ -1,12 +1,11 @@
-import "./App.scss";
+import { Outlet } from "react-router-dom";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="header-xl">hello sass 💅</h1>
-
-      <button className="button-primary">Primary button</button>
-      <button className="button-secondary">Secondary button</button>
+      <Navbar />
+      <Outlet />
     </div>
   );
 }
