@@ -1,8 +1,34 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" },
-    { "id": 2, "title": "second-post", "author": "pfdzm" }
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "second-post",
+      "author": "pfdzm"
+    },
+    {
+      "title": "Fetching Data",
+      "author": "pfdzm",
+      "id": 1702472987217
+    },
+    {
+      "title": "Promises",
+      "author": "pfdzm",
+      "id": 1702473019349
+    }
   ],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" }
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
