@@ -1,11 +1,23 @@
 .navbar {
+  font-size: 3rem;
   background-color: #333;
   color: #fff;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
+  button {
+    margin-left: auto;
+    // reset button styles
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    font-size: inherit;
+  }
+
   a {
     color: #fff;
     text-decoration: none;

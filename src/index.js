@@ -5,6 +5,8 @@ import App from "./App";
 import FetchData from "./FetchData";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import SassExample from "./SassExample";
+import { store } from "./store";
+import { Provider as ReduxProvider } from "react-redux";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const router = createBrowserRouter([
@@ -26,6 +28,8 @@ const router = createBrowserRouter([
 
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <ReduxProvider store={store}>
+      <RouterProvider router={router} />
+    </ReduxProvider>
   </React.StrictMode>
 );
